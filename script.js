@@ -57,3 +57,16 @@ pricingToggles.forEach((button) => {
     });
   });
 });
+
+// Public portfolio attribution: transparent about ownership and AI-assisted production.
+const siteFooter = document.querySelector('.site-footer');
+if (siteFooter) {
+  const credit = document.createElement('div');
+  credit.className = 'portfolio-credit';
+  credit.innerHTML = '<span>Case by <strong>Svetlana Chukova</strong></span><span>Product marketing direction, QA & final decisions · AI-assisted research and front-end implementation</span><a href="https://gkkm8bm7rn-eng.github.io/portfolio/" target="_blank" rel="noopener noreferrer">View portfolio ↗</a>';
+  siteFooter.before(credit);
+
+  const creditStyle = document.createElement('style');
+  creditStyle.textContent = '.portfolio-credit{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 18px;padding:18px 24px;background:#0d0e16;color:#aeb2c0;border-top:1px solid rgba(255,255,255,.08);font-size:10px;line-height:1.45;text-align:center}.portfolio-credit strong{color:#fff}.portfolio-credit a{color:#c3b8ff;font-weight:750}.portfolio-credit a:hover{text-decoration:underline}@media(max-width:720px){.portfolio-credit{align-items:flex-start;flex-direction:column;text-align:left;padding:18px 20px}}';
+  document.head.appendChild(creditStyle);
+}
