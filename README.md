@@ -4,6 +4,8 @@ Portfolio concept based on a product marketing test assignment for Linked Helper
 
 > **Concept project / test assignment. This is not an official Linked Helper production page and is not endorsed by Linked Helper.**
 
+[Read the detailed case study](CASE_STUDY.md)
+
 ## Project goal
 
 Turn a completed product-marketing assignment into a working landing page and show the full path from research to implementation:
@@ -90,6 +92,7 @@ Completed:
 
 - [x] Repository setup
 - [x] README / case framing
+- [x] Detailed case-study narrative
 - [x] All 16 landing blocks implemented
 - [x] Product-led Hero concept implemented in HTML/CSS
 - [x] Responsive desktop / tablet / mobile layout
