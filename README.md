@@ -4,7 +4,13 @@ Portfolio concept based on a product marketing test assignment for Linked Helper
 
 > **Concept project / test assignment. This is not an official Linked Helper production page and is not endorsed by Linked Helper.**
 
-[Read the detailed case study](CASE_STUDY.md)
+## Author / role
+
+**Svetlana Chukova** — product marketing direction, scope control, review, QA, and final decisions.
+
+Research organization, drafting, visual exploration, and front-end implementation were AI-assisted with ChatGPT. The workflow was iterative and evidence-based rather than a one-shot generation process.
+
+**Portfolio:** https://gkkm8bm7rn-eng.github.io/portfolio/
 
 ## Project goal
 
@@ -92,7 +98,6 @@ Completed:
 
 - [x] Repository setup
 - [x] README / case framing
-- [x] Detailed case-study narrative
 - [x] All 16 landing blocks implemented
 - [x] Product-led Hero concept implemented in HTML/CSS
 - [x] Responsive desktop / tablet / mobile layout
@@ -101,6 +106,8 @@ Completed:
 - [x] Accessibility basics
 - [x] SEO metadata
 - [x] Current product/pricing fact check
+- [x] Public authorship / AI-assistance disclosure
+- [x] Added to Svetlana Chukova portfolio
 
 Next:
 
@@ -108,4 +115,3 @@ Next:
 - [ ] Final spacing and responsive refinements
 - [ ] Optional replacement of schematic UI with approved product screenshots / custom visual assets
 - [ ] Vercel deployment
-- [ ] Add the finished case to the main portfolio
