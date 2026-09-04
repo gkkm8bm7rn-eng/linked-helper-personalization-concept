@@ -58,6 +58,24 @@ pricingToggles.forEach((button) => {
   });
 });
 
+// This is a portfolio concept, not a commercial Linked Helper site.
+// Keep every commercial CTA inside the concept instead of sending visitors
+// to Linked Helper's live pricing / purchase flow.
+const officialLinkedHelperCtas = document.querySelectorAll('a[href^="https://www.linkedhelper.com/"]');
+
+officialLinkedHelperCtas.forEach((link) => {
+  link.removeAttribute('target');
+  link.removeAttribute('rel');
+  link.setAttribute('href', '#pricing');
+  link.setAttribute('title', 'Portfolio concept — no external purchase flow');
+
+  if (link.closest('#pricing')) {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+    });
+  }
+});
+
 // Public portfolio attribution: transparent about ownership and AI-assisted production.
 const siteFooter = document.querySelector('.site-footer');
 if (siteFooter) {
